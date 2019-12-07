@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zign</title>
+</head>
+
+<body>
+    <h1>Zign</h1>
+    <div class="posts">
+        <h2>Posts</h2>
+
+        {% for post in site.data.posts %}
+            <div class="post">
+                <h3>{{ post.name }}</h3>
+                <img src="" alt="photo">
+                <p>{{ post.text }}</p>
+                <div class="author">{{ post.author }}</div>
+                <div class="date">{{ post.date }}</div>
+            </div>
+        {% endfor %}
+
+    </div>
+</body>
+
+</html>
