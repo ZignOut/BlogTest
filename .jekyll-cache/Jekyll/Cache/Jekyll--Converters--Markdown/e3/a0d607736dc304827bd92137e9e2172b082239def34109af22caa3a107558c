@@ -1,0 +1,46 @@
+I"¶<p>&lt;!DOCTYPE html&gt;</p>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Zign</title>
+</head>
+
+<body>
+    <h1>Zign</h1>
+    <div class="posts">
+        <h2>Posts</h2>
+
+        
+        <div class="post">
+            <h3>Kaung Htut</h3>
+            <img src="" alt="photo" />
+            <p>Nostrud duis ex labore elit exercitation duis.Cillum laboris esse dolore qui id ullamco veniam consequat aliquip veniam culpa veniam commodo.</p>
+            <div class="author"></div>
+            <div class="date">7/12/19</div>
+        </div>
+        
+        <div class="post">
+            <h3>Kaung Htut</h3>
+            <img src="" alt="photo" />
+            <p>Nostrud duis ex labore elit exercitation duis.Cillum laboris esse dolore qui id ullamco veniam consequat aliquip veniam culpa veniam commodo.</p>
+            <div class="author"></div>
+            <div class="date">7/12/19</div>
+        </div>
+        
+        <div class="post">
+            <h3>Kaung Htut</h3>
+            <img src="" alt="photo" />
+            <p>Nostrud duis ex labore elit exercitation duis.Cillum laboris esse dolore qui id ullamco veniam consequat aliquip veniam culpa veniam commodo.</p>
+            <div class="author"></div>
+            <div class="date">7/12/19</div>
+        </div>
+        
+
+    </div>
+</body>
+
+</html>
+:ET

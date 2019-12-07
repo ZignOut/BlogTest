@@ -1,0 +1,19 @@
+body { margin: 20px; padding: 0; background: #cddaff; font-family: Gupter; }
+
+.posts { margin: auto; width: 80%; }
+
+.posts h2 { color: #00583b; font-size: 30px; }
+
+.post { float: left; width: 45%; height: 400px; margin: 10px; padding: 10px; border-radius: 5px; box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.24); }
+
+.post h3 { color: #00583b; font-size: 20px; }
+
+.post img { height: 150px; width: 100%; }
+
+.post p { overflow: hidden; height: 65px; color: #003824; font-size: 18px; }
+
+.post .author { margin-top: 20px; font-size: 14px; }
+
+.post .date { font-size: 14px; }
+
+/*# sourceMappingURL=style.css.map */
