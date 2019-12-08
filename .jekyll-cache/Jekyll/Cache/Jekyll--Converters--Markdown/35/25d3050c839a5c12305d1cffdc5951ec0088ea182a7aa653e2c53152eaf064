@@ -1,0 +1,27 @@
+I"Q<header>
+    <h1>KBlog</h1>
+</header>
+<div class="posts">
+    <h2>Posts</h2>
+
+
+<div class="post">
+    <h3>Welcome To Jekyll</h3>
+    <img src="/assets/images/1.png" alt="photo" />
+    <p></p>
+    <a href="/2019/12/07/welcome-to-jekyll.html">read more&gt;&gt;</a>
+    <div class="author">hha</div>
+    <div class="date">07 Dec 2019</div>
+</div>
+
+<div class="post">
+    <h3>Post1</h3>
+    <img src="/assets/images/2.png" alt="photo" />
+    <p></p>
+    <a href="/2019/12/07/post1.html">read more&gt;&gt;</a>
+    <div class="author">kh</div>
+    <div class="date">07 Dec 2019</div>
+</div>
+
+</div>
+:ET

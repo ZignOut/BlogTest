@@ -1,0 +1,30 @@
+I"¬<header>
+    <h1>KBlog</h1>
+</header>
+<div class="posts">
+    <h2>Posts</h2>
+
+
+<div class="post">
+    <h3>Welcome To Jekyll</h3>
+    <img src="/assets/img/1.png" alt="photo" />
+    <p><p>Youâ€™ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+</p>
+    <a href="/2019/12/07/welcome-to-jekyll.html">read more&gt;&gt;</a>
+    <div class="author">hha</div>
+    <div class="date">07 Dec 2019</div>
+</div>
+
+<div class="post">
+    <h3>Post1</h3>
+    <img src="/assets/images/2.png" alt="photo" />
+    <p><p>Est est esse Lorem sint aliquip ex Lorem fugiat ut magna veniam.Commodo velit minim veniam labore sit cupidatat velit veniam sint anim.
+Anim qui adipisicing exercitation dolore Lorem fugiat adipisicing aliquip deserunt.</p>
+</p>
+    <a href="/2019/12/07/post1.html">read more&gt;&gt;</a>
+    <div class="author">kh</div>
+    <div class="date">07 Dec 2019</div>
+</div>
+
+</div>
+:ET

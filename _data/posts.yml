@@ -1,10 +1,10 @@
 - name: Kaung Htut
-  title: First Post
+  title: post1
   image: assets/images/1.png
   text: Nostrud duis ex labore elit exercitation duis.Cillum laboris esse dolore qui id ullamco veniam consequat aliquip veniam culpa veniam commodo.Non eu labore sit laboris.Tempor ipsum ullamco nulla et reprehenderit.Minim in minim ut exercitation.Est ullamco Lorem Lorem tempor deserunt velit sunt.Dolore incididunt nostrud velit non enim.Nostrud cillum magna in consectetur veniam nisi cillum eu mollit sit ullamco occaecat id dolore.Est adipisicing elit consectetur nisi qui consectetur elit reprehenderit qui eiusmod consequat.
   date: 7/12/19
 
-- name: Kaung Myat Paing
+- name: post2
   title: Second Post
   image: assets/images/1.png
   text: Nostrud duis ex labore elit exercitation duis.Cillum laboris esse dolore qui id ullamco veniam consequat aliquip veniam culpa veniam commodo.

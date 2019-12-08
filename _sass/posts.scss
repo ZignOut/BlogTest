@@ -14,7 +14,7 @@ $text: rgb(0, 56, 36);
 .post{
     float: left;
     width: 45%;
-    height: 400px;
+    height: 500px;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
@@ -24,12 +24,12 @@ $text: rgb(0, 56, 36);
         font-size: 20px;
     }
     img{
-        height: 150px;
+        height: 200px;
         width: 100%;
     }
     p{
         overflow: hidden;
-        height: 65px;
+        height: 100px;
         color: $text;
         font-size: 18px;
     }

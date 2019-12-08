@@ -4,13 +4,15 @@
 	"sources": [
 		"style.scss",
 		"_sass/main.scss",
-		"_sass/posts.scss"
+		"_sass/posts.scss",
+		"_sass/page.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";\n@import \"posts\";",
+		"@import \"main\";\n@import \"posts\";\n@import \"page\";",
 		"body{\n    margin: 20px;\n    padding: 0;\n    background: rgb(205, 218, 255);\n    font-family: Gupter;\n}",
-		"$primary: rgb(109, 0, 121);\n$secondry: rgb(0, 88, 59);\n$text: rgb(0, 56, 36);\n\n.posts{\n    margin: auto;\n    width: 80%;\n    h2{\n        color: $secondry;\n        font-size: 30px;\n    }\n}\n\n.post{\n    float: left;\n    width: 45%;\n    height: 400px;\n    margin: 10px;\n    padding: 10px;\n    border-radius: 5px;\n    box-shadow: 0 14px 28px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.24);\n    h3{\n        color: $secondry;\n        font-size: 20px;\n    }\n    img{\n        height: 150px;\n        width: 100%;\n    }\n    p{\n        overflow: hidden;\n        height: 65px;\n        color: $text;\n        font-size: 18px;\n    }\n    .author{\n        margin-top: 20px;\n        font-size: 14px;\n    }\n    .date{\n        font-size: 14px;\n    }\n}"
+		"$primary: rgb(109, 0, 121);\n$secondry: rgb(0, 88, 59);\n$text: rgb(0, 56, 36);\n\n.posts{\n    margin: auto;\n    width: 80%;\n    h2{\n        color: $secondry;\n        font-size: 30px;\n    }\n}\n\n.post{\n    float: left;\n    width: 45%;\n    height: 500px;\n    margin: 10px;\n    padding: 10px;\n    border-radius: 5px;\n    box-shadow: 0 14px 28px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.24);\n    h3{\n        color: $secondry;\n        font-size: 20px;\n    }\n    img{\n        height: 200px;\n        width: 100%;\n    }\n    p{\n        overflow: hidden;\n        height: 100px;\n        color: $text;\n        font-size: 18px;\n    }\n    .author{\n        margin-top: 20px;\n        font-size: 14px;\n    }\n    .date{\n        font-size: 14px;\n    }\n}",
+		".article{\n    margin: auto;\n    width: 80%;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,IAAI,CAAA,EACA,MAAM,EAAE,IAAI,EACZ,OAAO,EAAE,CAAC,EACV,UAAU,EAAE,OAAkB,EAC9B,WAAW,EAAE,MAAM,GACtB;;ACDD,AAAA,MAAM,CAAA,EACF,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,GAAG,GAKb;;AAPD,AAGI,MAHE,CAGF,EAAE,CAAA,EACE,KAAK,EAPF,OAAc,EAQjB,SAAS,EAAE,IAAI,GAClB;;AAGL,AAAA,KAAK,CAAA,EACD,KAAK,EAAE,IAAI,EACX,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,KAAK,EACb,MAAM,EAAE,IAAI,EACZ,OAAO,EAAE,IAAI,EACb,aAAa,EAAE,GAAG,EAClB,UAAU,EAAE,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC,mBAAgB,EAAE,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC,mBAAgB,GAsBzE;;AA7BD,AAQI,KARC,CAQD,EAAE,CAAA,EACE,KAAK,EArBF,OAAc,EAsBjB,SAAS,EAAE,IAAI,GAClB;;AAXL,AAYI,KAZC,CAYD,GAAG,CAAA,EACC,MAAM,EAAE,KAAK,EACb,KAAK,EAAE,IAAI,GACd;;AAfL,AAgBI,KAhBC,CAgBD,CAAC,CAAA,EACG,QAAQ,EAAE,MAAM,EAChB,MAAM,EAAE,IAAI,EACZ,KAAK,EA9BN,OAAc,EA+Bb,SAAS,EAAE,IAAI,GAClB;;AArBL,AAsBI,KAtBC,CAsBD,OAAO,CAAA,EACH,UAAU,EAAE,IAAI,EAChB,SAAS,EAAE,IAAI,GAClB;;AAzBL,AA0BI,KA1BC,CA0BD,KAAK,CAAA,EACD,SAAS,EAAE,IAAI,GAClB"
+	"mappings": "ACAA,AAAA,IAAI,CAAA,EACA,MAAM,EAAE,IAAI,EACZ,OAAO,EAAE,CAAC,EACV,UAAU,EAAE,OAAkB,EAC9B,WAAW,EAAE,MAAM,GACtB;;ACDD,AAAA,MAAM,CAAA,EACF,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,GAAG,GAKb;;AAPD,AAGI,MAHE,CAGF,EAAE,CAAA,EACE,KAAK,EAPF,OAAc,EAQjB,SAAS,EAAE,IAAI,GAClB;;AAGL,AAAA,KAAK,CAAA,EACD,KAAK,EAAE,IAAI,EACX,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,KAAK,EACb,MAAM,EAAE,IAAI,EACZ,OAAO,EAAE,IAAI,EACb,aAAa,EAAE,GAAG,EAClB,UAAU,EAAE,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC,mBAAgB,EAAE,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC,mBAAgB,GAsBzE;;AA7BD,AAQI,KARC,CAQD,EAAE,CAAA,EACE,KAAK,EArBF,OAAc,EAsBjB,SAAS,EAAE,IAAI,GAClB;;AAXL,AAYI,KAZC,CAYD,GAAG,CAAA,EACC,MAAM,EAAE,KAAK,EACb,KAAK,EAAE,IAAI,GACd;;AAfL,AAgBI,KAhBC,CAgBD,CAAC,CAAA,EACG,QAAQ,EAAE,MAAM,EAChB,MAAM,EAAE,KAAK,EACb,KAAK,EA9BN,OAAc,EA+Bb,SAAS,EAAE,IAAI,GAClB;;AArBL,AAsBI,KAtBC,CAsBD,OAAO,CAAA,EACH,UAAU,EAAE,IAAI,EAChB,SAAS,EAAE,IAAI,GAClB;;AAzBL,AA0BI,KA1BC,CA0BD,KAAK,CAAA,EACD,SAAS,EAAE,IAAI,GAClB;;ACzCL,AAAA,QAAQ,CAAA,EACJ,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,GAAG,GACb"
 }
